@@ -6,8 +6,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "concurrently --kill-others \"bun run serve\" \"bun run tailwind\"",
-    "serve": "bunx serve ./src",
-    "tailwind": "bunx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+    "serve": "bunx serve",
+    "tailwind": "bunx tailwindcss -i ./assets/input.css -o ./assets/output.css --watch"
   },
   "devDependencies": {
     "concurrently": "^8.2.2",
