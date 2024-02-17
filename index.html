@@ -44,13 +44,8 @@
   </head>
 
   <body class="bg-black grid items-center h-screen justify-center">
-    <div class="flex flex-col items-center gap-6">
-      <a
-        href="https://github.com/AstronixLab"
-        target="_blank"
-        rel="noopener"
-        class="group"
-      >
+    <div class="flex flex-col items-center gap-6 group">
+      <a href="https://github.com/AstronixLab" target="_blank" rel="noopener">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 200 62"
@@ -65,30 +60,38 @@
         </svg>
       </a>
 
-      <h3 class="text-neutral-500 text-lg">Software Development Studio</h3>
+      <h3
+        class="text-neutral-500 text-lg group-hover:-translate-y-1 transition-all duration-500"
+      >
+        Software Development Studio
+      </h3>
+    </div>
 
-      <p class="pt-6">
-        <a
-          href="mailto:hello@astronix.dev"
-          class="text-violet-300 text-sm hover:text-white flex gap-1"
+    <div class="fixed bottom-5 right-4">
+      <a
+        href="mailto:hello@astronix.dev"
+        class="text-violet-300 hover:text-white group flex items-center gap-1"
+      >
+        <span
+          class="opacity-0 group-hover:opacity-100 group-hover:-translate-x-4 group-hover:delay-75 transition-all duration-500"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-4 h-4 translate-y-[1px]"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M21.75 9v.906a2.25 2.25 0 0 1-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 0 0 1.183 1.981l6.478 3.488m8.839 2.51-4.66-2.51m0 0-1.023-.55a2.25 2.25 0 0 0-2.134 0l-1.022.55m0 0-4.661 2.51m16.5 1.615a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V8.844a2.25 2.25 0 0 1 1.183-1.981l7.5-4.039a2.25 2.25 0 0 1 2.134 0l7.5 4.039a2.25 2.25 0 0 1 1.183 1.98V19.5Z"
-            />
-          </svg>
           hello@astronix.dev
-        </a>
-      </p>
+        </span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-8 h-8 group-hover:scale-125 origin-bottom-right transition-all ease-out duration-500"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M21.75 9v.906a2.25 2.25 0 0 1-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 0 0 1.183 1.981l6.478 3.488m8.839 2.51-4.66-2.51m0 0-1.023-.55a2.25 2.25 0 0 0-2.134 0l-1.022.55m0 0-4.661 2.51m16.5 1.615a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V8.844a2.25 2.25 0 0 1 1.183-1.981l7.5-4.039a2.25 2.25 0 0 1 2.134 0l7.5 4.039a2.25 2.25 0 0 1 1.183 1.98V19.5Z"
+          />
+        </svg>
+      </a>
     </div>
   </body>
 </html>
