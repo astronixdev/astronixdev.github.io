@@ -1,0 +1,16 @@
+{
+  "name": "astronixlab.github.io",
+  "version": "1.0.0",
+  "description": "A static website",
+  "author": "Dino Perovic",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently --kill-others \"bun run serve\" \"bun run tailwind\"",
+    "serve": "bunx serve ./src",
+    "tailwind": "bunx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "tailwindcss": "^3.4.1"
+  }
+}
