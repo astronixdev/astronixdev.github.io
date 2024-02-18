@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "concurrently --kill-others \"bun run serve\" \"bun run tailwind\"",
-    "serve": "bunx serve",
+    "serve": "bunx serve -l tcp://0.0.0.0:3000",
     "tailwind": "bunx tailwindcss -i ./assets/input.css -o ./assets/output.css --watch"
   },
   "devDependencies": {
