@@ -1,7 +1,7 @@
 {
-  "name": "astronixlab.github.io",
+  "name": "astronix",
   "version": "1.0.0",
-  "description": "A static website",
+  "description": "Astronix website",
   "author": "Dino Perovic",
   "license": "MIT",
   "scripts": {
